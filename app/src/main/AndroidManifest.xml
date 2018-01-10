@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lbsim.shreya.student">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Feedback" />
+        <activity android:name=".GD" />
+        <activity android:name=".points" />
+        <activity android:name=".cTopics" />
+        <activity android:name=".studyTopics" />
+        <activity android:name=".Economics" />
+        <activity android:name=".generalInterest" />
+        <activity android:name=".mTopics" />
+        <activity android:name=".creativeTopics" />
+        <activity android:name=".socialTopics" />
+        <activity android:name=".politicsTopics" />
+        <activity android:name=".educationTopics" />
+        <activity android:name=".Test" />
+        <activity android:name=".aptitude" />
+        <activity android:name=".trainQues" />
+        <activity android:name=".companies" />
+        <activity android:name=".problemOnAges" />
+        <activity android:name=".problemOnTrains" />
+        <activity android:name=".problemOnBoats" />
+        <activity android:name=".problemOnHcf" />
+        <activity android:name=".problemOnProbability" />
+        <activity android:name=".problemOnSi" />
+        <activity android:name=".problemOnStocks" />
+        <activity android:name=".problemOnRaces" />
+        <activity android:name=".prominentRecruiters" />
+        <activity android:name=".siQues" />
+        <activity android:name=".racesQues" />
+        <activity android:name=".probQues" />
+        <activity android:name=".boatsQues" />
+        <activity android:name=".hcfQues" />
+        <activity android:name=".agesQues" />
+        <activity android:name=".stocksQues" />
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".WelcomeActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ContactActivity" />
+        <activity android:name=".FacultyActivity" />
+        <activity android:name=".AboutActivity"></activity>
+    </application>
+
+</manifest>

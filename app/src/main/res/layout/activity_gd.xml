@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/common_google_signin_btn_text_dark_focused"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+
+    android:paddingTop="@dimen/activity_vertical_margin">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            android:weightSum="1">
+
+            <Button
+                android:id="@+id/def"
+                style="@android:style/Widget.Holo.Light.Button.Toggle"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:elevation="24dp"
+                android:onClick="getPoints"
+                android:text="Points To Remember"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:textSize="18sp" />
+
+            <Button
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:id="@+id/currentTopics"
+                style="@android:style/Widget.Holo.Light.Button.Toggle"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:onClick="currTopics"
+                android:text="Current Topics"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/EnB"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                style="@android:style/Widget.Holo.Light.Button.Toggle"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:onClick="eco"
+                android:text="Economics And Business"
+                android:textSize="18sp" />
+
+            <Button
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:id="@+id/generalInterest"
+                style="@android:style/Widget.Holo.Light.Button.Toggle"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:onClick="gi"
+                android:text="General Interest"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/managementTopics"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                style="@android:style/Widget.Holo.Light.Button.Toggle"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:onClick="management"
+                android:text="Management Topics"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/creativeTopics"
+                style="@android:style/Widget.Holo.Light.Button.Toggle"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:onClick="creative"
+                android:text="Creative Topics"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/socialTopics"
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                style="@android:style/Widget.Holo.Light.Button.Toggle"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:onClick="social"
+                android:text="Social Topics"
+                android:textSize="18sp" />
+
+            <Button
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:id="@+id/Politics"
+                style="@android:style/Widget.Holo.Light.Button.Toggle"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:onClick="politics"
+                android:text="Politics"
+                android:textSize="18sp" />
+
+            <Button
+                android:textColor="@color/common_google_signin_btn_text_dark_default"
+                android:id="@+id/Ens"
+                style="@android:style/Widget.Holo.Light.Button.Toggle"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:onClick="education"
+                android:text="Education And Sports"
+                android:textSize="18sp"
+                android:layout_marginBottom="10dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

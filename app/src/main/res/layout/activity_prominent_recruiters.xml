@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lbsim.shreya.student.prominentRecruiters"
+    android:background="@color/common_google_signin_btn_text_dark_focused">
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:weightSum="1">
+
+        <Button
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:id="@+id/ttn"
+            style="@android:style/Widget.Holo.Light.Button.Toggle"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:elevation="24dp"
+            android:onClick="company_ttn"
+            android:text="To The New"
+            android:textSize="18sp" />
+
+        <Button
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:id="@+id/nagg"
+            style="@android:style/Widget.Holo.Light.Button.Toggle"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="company_nagarro"
+            android:text="Nagarro"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/exp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            style="@android:style/Widget.Holo.Light.Button.Toggle"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="company_exp"
+            android:text="Expicient"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/ivp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            style="@android:style/Widget.Holo.Light.Button.Toggle"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="company_ivp"
+            android:text="Indus Valley Partners"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/knol"
+            style="@android:style/Widget.Holo.Light.Button.Toggle"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:onClick="company_knoldus"
+            android:text="Knoldus"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="18sp" />
+    </LinearLayout>
+</ScrollView>
+</android.support.constraint.ConstraintLayout>

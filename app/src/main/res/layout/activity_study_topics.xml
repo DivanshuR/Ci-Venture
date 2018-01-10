@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_gd"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/common_google_signin_btn_text_dark_focused"
+  >
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <Button
+
+            android:id="@+id/trains"
+            style="@android:style/Widget.Holo.Light.Button.Toggle"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:allowUndo="false"
+            android:elevation="24dp"
+            android:onClick="prob_trains"
+            android:text="Problems on Trains"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="20sp" />
+
+        <Button
+            android:text="Problems on Ages"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/ages"
+            style="@android:style/Widget.Holo.Light.Button.Toggle"
+            android:textSize="18sp"
+            android:onClick="prob_ages"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"/>
+
+        <Button
+            android:text="Simple Interest"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/si"
+            style="@android:style/Widget.Holo.Light.Button.Toggle"
+            android:textSize="18sp"
+            android:onClick="prob_si" />
+
+        <Button
+            android:text="Stocks And Shares"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/shares"
+            style="@android:style/Widget.Holo.Light.Button.Toggle"
+            android:textSize="18sp"
+            android:onClick="prob_stocks"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"/>
+        <Button
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:text="Races and Games"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/races"
+            style="@android:style/Widget.Holo.Light.Button.Toggle"
+            android:textSize="18sp"
+            android:onClick="prob_races" />
+
+        <Button
+            android:text="Probability"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:id="@+id/probability"
+            style="@android:style/Widget.Holo.Light.Button.Toggle"
+            android:textSize="18sp"
+            android:onClick="prob_probability" />
+
+        <Button
+            android:text="Boats and Streams"
+            android:layout_width="match_parent"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:layout_height="100dp"
+            android:id="@+id/boats"
+            style="@android:style/Widget.Holo.Light.Button.Toggle"
+            android:textSize="18sp"
+            android:onClick="prob_boats" />
+
+        <Button
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:text="H.C.F and L.C.M"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:id="@+id/hcf"
+            style="@android:style/Widget.Holo.Light.Button.Toggle"
+            android:textSize="18sp"
+            android:onClick="prob_hcf" />
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

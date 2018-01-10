@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+    tools:context="com.lbsim.shreya.student.FacultyActivity"
+    android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent" android:id="@+id/activity_faculty"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/textView4"
+        android:textAppearance="@android:style/TextAppearance.DeviceDefault.Large"
+        android:layout_marginTop="36dp" android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:text="Faculty Login Page"/>
+
+    <EditText android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/facemail"
+        android:layout_marginTop="48dp"
+        android:layout_alignParentStart="true" android:layout_alignParentLeft="true" android:layout_below="@+id/textView4" android:textAlignment="center" android:inputType="textEmailAddress" android:hint="Email Address" android:ems="10" android:background="@drawable/edittextdraw"/>
+
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent"
+        android:id="@+id/facpass" android:layout_marginTop="10dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" android:layout_below="@+id/facemail"
+        android:textAlignment="center" android:inputType="textPassword"
+        android:hint="Password" android:ems="10"
+        android:background="@drawable/edittextdraw"/>
+
+    <Button
+        android:id="@+id/facsign"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/facpass"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="58dp"
+        android:text="Sign In"
+        android:textSize="18sp"
+        />
+
+    <ProgressBar android:layout_height="30dp" android:layout_width="30dp" android:id="@+id/progressBar" android:visibility="gone" android:layout_marginBottom="20dp" android:layout_gravity="center|bottom"/>
+
+    <Button android:layout_height="wrap_content"
+        android:layout_width="150dp" android:id="@+id/facback"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true" android:text="Back"
+        android:layout_below="@+id/facsign"
+        android:background="@color/colorAccent"
+        android:visibility="gone"/>
+
+    <com.google.android.gms.ads.AdView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/adView"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        ads:adSize="BANNER" android:layout_alignParentBottom="true">
+    </com.google.android.gms.ads.AdView>
+
+</RelativeLayout>

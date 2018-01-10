@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "102713340290",
+    "project_id": "student",
+    "storage_bucket": "student.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102713340290:android:582f5da26c4e6b00",
+        "android_client_info": {
+          "package_name": "com.lbsim.shreya.student"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "102713340290-duvktevd4dhiv14bq83sjokeim706vd3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lbsim.shreya.student",
+            "certificate_hash": "11bd0f7583ee055436f4a1c9c2585f4d9436fdb7"
+          }
+        },
+        {
+          "client_id": "102713340290-hiso9vr0jnu1jlhlea3dcdsn77ti4vdl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDUuxGDinRWZ70kwSNMKSIXjW6LVRV7JdY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "102713340290-hiso9vr0jnu1jlhlea3dcdsn77ti4vdl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
